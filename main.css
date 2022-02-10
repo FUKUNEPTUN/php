@@ -1,0 +1,22 @@
+fieldset{
+    background-image: linear-gradient(to right, aliceblue,lightskyblue); 
+    height:100%;
+    box-shadow: 0px 10px 10px black, 0px -5px 10px black;
+}
+body{
+    background-color: grey;
+}
+#kaka{
+    border-style: dotted;
+    border-color: blue;
+    padding-top:2%;
+    padding-bottom:1%; 
+    margin-top: 1%;
+    min-width:175px; 
+    max-width:30%; 
+    min-height:87px; 
+    max-width: 15%
+}
+#subuwu{
+    margin-top: 1%; border-radius: 25px;
+}
