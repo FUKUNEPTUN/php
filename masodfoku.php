@@ -7,22 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Levi hiper-szuper másodfokú számolója</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 
 
-    <form action="" style="height:100vh; ">
+    <form action="" style="height: 95vh; ">
         <fieldset>
-            <legend style="background-color:white ;">Másodfoku számoló</legend>
+            <legend id="leg">Másodfoku számoló</legend>
             <center>
                 <div style="padding-top: 10%;">
                     <input type="number" name="a" class="ipos"> <br>
-                    <input type="number" name="b" class="ipos"> <br>
-                    <input type="number" name="c" class="ipos"><br>
-                    <input type="submit" value="számolás" id="subuwu">
+                    <input type="number" name="b" class="ipos1"> <br>
+                    <input type="number" name="c" class="ipos2"><br>
+                     <b><input type="submit" value="számolás" id="subuwu"></b>
                     <div id="kaka">
+                       
                         <?php
                         $a = $_GET["a"];
                         $b = $_GET["b"];
