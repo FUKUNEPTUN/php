@@ -1,0 +1,16 @@
+.mizu {
+    background-color: darkgray;
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.aja {
+    float: right;
+}
+
+.helo {
+    width: 40%;
+    display: inline;
+}
