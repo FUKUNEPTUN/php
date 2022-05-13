@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../kozos/kirandulohelyek.css">
+    <link rel="stylesheet" href="stilus.css">
     <link rel="stylesheet" href="../kozos/bootstrap.min.css">
     <link rel="stylesheet" href="../kozos/bootstrap-icons.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="mizu">
-        <img src="../img/fejlec.png" alt="" class="w-100">
-        <navbar>
-                    <span>
-                    Kiránduló helyek
-                    </span>
-                    <div class="aja">
-                    <input type="text" >
-                    <input type="button" class="btn btn-light" value="Keresés">
-                    <input type="button" class="btn btn-light" value="Bejelentkezés">    
-                    </div>
-        </navbar>
-
-
-
+    <header class="mizu pb-2">
+        <div class="container ">        <img src="../img/fejlec.png" alt="" class="w-100"></div>
 
     </header>
+    <nav class=" position-sticky " style="height:5vh">
+    <div class="container">                 <span>
+                 Kiránduló helyek
+                 </span>
+                 <div class="aja">
+                 <input type="text" >
+                 <input type="button" class="btn btn-light" value="Keresés">
+                 <input type="button" class="btn btn-light" value="Bejelentkezés">    
+                 </div></div>
+
+    </nav>
 
 
 Lorem ipsum dolor sit amet, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ipsam ut vero, labore maxime tenetur atque voluptatem ad culpa a aliquid maiores doloribus laboriosam ipsa dolorem quam velit id eos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque dicta nulla iusto error libero! Similique rem accusamus, accusantium error velit ea. Voluptas rerum ipsam vero magnam? Minus debitis labore exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, harum. Beatae repellat consectetur molestias maiores a delectus deleniti quae nam optio repudiandae neque, ullam tempore iure inventore itaque sapiente pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque obcaecati sapiente similique tempora quisquam dolorem autem aliquid quo libero? Cumque a ratione cupiditate nostrum, vitae ullam facilis tempora nam corrupti?
@@ -62,7 +60,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nesciunt? M
 
 
 
-    <footer class="mizu">
+    <footer >
     <span>&copy; Gyalog Galopp - 2022 </span>
     </footer>
     <script src="../kozos/jquery-3.6.0.min.js" ></script>

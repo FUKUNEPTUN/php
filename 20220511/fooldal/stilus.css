@@ -1,8 +1,8 @@
-.mizu {
+header,
+footer,
+nav {
     background-color: darkgray;
     color: white;
-    position: sticky;
-    top: 0;
     width: 100%;
 }
 
